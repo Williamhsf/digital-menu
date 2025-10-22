@@ -16,7 +16,7 @@ function App() {
       
     </div>
 
-    // tempo 1:11:00 - props
+    // tempo 1:42:00 - iterar cards
   );
 }
 

@@ -1,4 +1,5 @@
-const Card = () => {
+// desestruturação
+const Card = ({titulo, descricao, preco, imagem}) => {
     return (
         <div className="card">
           <div className="card__textos">
