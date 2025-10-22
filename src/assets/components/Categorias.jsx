@@ -1,14 +1,4 @@
-import { useState } from "react"
-
-
-const Categorias = () => {
-  // Hook
-  // variavel de Estado
-  const [numCategoriaSelecionada, SetNumCategoriaSelecionada] = useState(0)
-  
-  //forma correta
-  // SetNumCategoriaSelecionada(1)
-
+const Categorias = ({numCategoriaSelecionada, SetNumCategoriaSelecionada}) => {
   return (
     <div className="categorias">
       <p 
